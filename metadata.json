@@ -1,0 +1,34 @@
+{
+  "amazigh": {
+    "synonyms": ["tamazight", "tifinagh","culture"],
+    "category": "culture"
+  },
+  "door": {
+    "synonyms": ["entry", "gate", "house door", "entrance"],
+    "category": "objects"
+  },
+  "door_logout": {
+    "synonyms": ["logout", "exit", "sign out", "leave"],
+    "category": "actions"
+  },
+  "khemissa": {
+    "synonyms": ["hand", "hamsa", "protection", "symbol"],
+    "category": "culture"
+  },
+  "kouffa": {
+    "synonyms": ["basket", "weaving", "handmade", "moroccan"],
+    "category": "objects"
+  },
+  "riad_door": {
+    "synonyms": ["riad", "moroccan door", "architecture", "traditional"],
+    "category": "architecture"
+  },
+  "riad_door_logout": {
+    "synonyms": ["riad", "door", "logout", "exit", "traditional"],
+    "category": "actions"
+  },
+  "tarbouch": {
+    "synonyms": ["hat", "moroccan hat", "culture"],
+    "category": "culture"
+  }
+}
