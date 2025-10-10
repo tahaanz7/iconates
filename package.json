@@ -1,0 +1,22 @@
+{
+  "name": "iconates",
+  "version": "0.1.0",
+  "description":"Iconates, Mezyanines, ou open-source for developers and designers.",
+  "main": "index.js",
+  "files": [
+    "svgs/",
+    "metadata/",
+    "index.js"
+  ],
+  "keywords": ["icons", "moroccan icons", "svg", "vue", "react", "design", "iconates"],
+  "author": "Iconates Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tahaanz7/iconates-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tahaanz7/iconates-icons/issues"
+  },
+  "homepage": "https://github.com/tahaanz7/iconates-icons#readme"
+}
