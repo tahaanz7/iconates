@@ -1,6 +1,6 @@
 {
   "name": "iconates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beautiful, consistent, open-source icons for developers and designers.",
   "main": "index.js",
   "files": [
@@ -10,7 +10,13 @@
     "LICENSE",
     "README.md"
   ],
-  "keywords": ["icons", "svg", "vue", "design", "open-source"],
+  "keywords": [
+    "icons",
+    "svg",
+    "vue",
+    "design",
+    "open-source"
+  ],
   "author": "Taha Aanizile",
   "license": "MIT"
 }
