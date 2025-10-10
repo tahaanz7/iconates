@@ -1,0 +1,21 @@
+# Ignore development stuff
+node_modules
+.git
+.gitignore
+.DS_Store
+.env
+.vscode
+.idea
+
+# Ignore build/test artifacts
+dist/
+tests/
+example/
+src/
+docs/
+README-draft.md
+
+# Ignore local scripts or configs
+*.log
+*.bak
+*.tmp
