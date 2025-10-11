@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const iconsDir = path.resolve("./svgs");
+const iconsDir = path.resolve("./dist");
 const metadataDir = path.resolve("./metadata");
 
 // Get all SVG files
@@ -26,5 +26,4 @@ if (fs.existsSync(metadataDir)) {
   });
 }
 
-// Export both
 export { icons, metadata };

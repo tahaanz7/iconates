@@ -5,11 +5,15 @@
   "main": "index.js",
   "files": [
     "iconates",
+    "dist",
     "metadata.json",
     "index.js",
     "LICENSE",
     "README.md"
   ],
+ "scripts": {
+   "build-icons": "npm run optimize && git add . && git commit -m 'update icons: $(date +%Y-%m-%d)' && git push"
+ },
   "keywords": [
     "icons",
     "svg",
@@ -18,5 +22,8 @@
     "open-source"
   ],
   "author": "Taha Aanizile",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "svgo": "^4.0.0"
+  } 
 }
