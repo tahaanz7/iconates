@@ -7,7 +7,7 @@
     "synonyms": ["entry", "gate", "house door", "entrance"],
     "category": "objects"
   },
-  "door_logout": {
+  "door-logout": {
     "synonyms": ["logout", "exit", "sign out", "leave"],
     "category": "actions"
   },
@@ -19,16 +19,24 @@
     "synonyms": ["basket", "weaving", "handmade", "moroccan"],
     "category": "objects"
   },
-  "riad_door": {
+  "riad-door": {
     "synonyms": ["riad", "moroccan door", "architecture", "traditional"],
     "category": "architecture"
   },
-  "riad_door_logout": {
+  "riad-door-logout": {
     "synonyms": ["riad", "door", "logout", "exit", "traditional"],
     "category": "actions"
   },
-  "tarbouch": {
+  "tarbouche": {
     "synonyms": ["hat", "moroccan hat", "culture"],
     "category": "culture"
+  },
+"home-dar": {
+    "synonyms": ["home", "dar", "house"],
+    "category": "architecture"
+  },
+"home-riad": {
+    "synonyms": ["home", "dar", "house","riad"],
+    "category": "architecture"
   }
 }
