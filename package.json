@@ -1,19 +1,20 @@
 {
   "name": "iconates",
   "version": "1.0.2",
-  "description": "Beautiful, mezyanines, ou open-source icons for developers and designers.",
+  "type": "module",
+  "description": "Beautiful, consistent, open-source icons for developers and designers.",
   "main": "index.js",
   "files": [
-    "dist",
+    "dist_iconates",
     "metadata.json",
     "index.js",
     "LICENSE",
     "README.md"
   ],
- "scripts": {
-    "optimize": "svgo --config=svgo.config.js raw_iconates/*.svg -o dist_iconates/",
-    "build-icons": "npm run optimize && git add . && git commit -m 'update icons' && git push"
-  },
+"scripts": {
+  "optimize": "node scripts/optimize-icons.js",
+  "build-icons": "npm run optimize && git add . && git commit -m 'update icons' && git push"
+},
   "keywords": [
     "icons",
     "svg",
@@ -25,5 +26,5 @@
   "license": "MIT",
   "devDependencies": {
     "svgo": "^4.0.0"
-  } 
+  }
 }
