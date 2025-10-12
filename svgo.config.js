@@ -1,18 +1,10 @@
 export default {
   plugins: [
-    // Remove width & height so icons scale with CSS
     'removeDimensions',
-
-    // Convert shapes to paths (optional, good for consistency)
     'convertShapeToPath',
-
-    // Remove metadata, layer names, styles, etc.
-    { name: 'removeAttrs', params: { attrs: ['data-name', 'id', 'class', 'style'] } },
-
-    // Keep the viewBox (don’t remove it)
+    { name: 'collapseGroups' },
+    { name: 'removeAttrs', params: { attrs: ['data-name', 'id', 'class', 'style', 'stroke', 'fill'] } },
     { name: 'removeViewBox', active: false },
-
-    // Add standardized attributes
     {
       name: 'addAttributesToSVGElement',
       params: {
