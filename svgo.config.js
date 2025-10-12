@@ -1,9 +1,16 @@
 export default {
+  multipass: true,
   plugins: [
-    'removeDimensions',
-    'convertShapeToPath',
-    { name: 'collapseGroups' },
-    { name: 'removeAttrs', params: { attrs: ['data-name', 'id', 'class', 'style', 'stroke', 'fill'] } },
+    { name: 'removeDimensions', active: true },
+    { name: 'collapseGroups', active: true },
+    { name: 'mergePaths', active: true },
+    { name: 'removeUselessStrokeAndFill', active: true },
+    {
+      name: 'removeAttrs',
+      params: {
+        attrs: ['data-name', 'id', 'class', 'style', 'stroke', 'fill']
+      }
+    },
     { name: 'removeViewBox', active: false },
     {
       name: 'addAttributesToSVGElement',
@@ -21,4 +28,4 @@ export default {
       }
     }
   ]
-}
+};
