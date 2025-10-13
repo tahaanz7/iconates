@@ -38,5 +38,37 @@
 "home-riad": {
     "synonyms": ["home", "dar", "house","riad"],
     "category": "architecture"
+  },
+  "arrow-up": {
+    "synonyms": ["arrow", "up", "north", "top", "increase", "rise"],
+    "category": "arrows"
+  },
+  "arrow-down": {
+    "synonyms": ["arrow", "down", "south", "bottom", "decrease", "fall"],
+    "category": "arrows"
+  },
+  "arrow-left": {
+    "synonyms": ["arrow", "left", "west", "previous", "back"],
+    "category": "arrows"
+  },
+  "arrow-right": {
+    "synonyms": ["arrow", "right", "east", "next", "forward"],
+    "category": "arrows"
+  },
+  "arrow-up-left": {
+    "synonyms": ["arrow", "up-left", "northwest", "diagonal", "top-left"],
+    "category": "arrows"
+  },
+  "arrow-up-right": {
+    "synonyms": ["arrow", "up-right", "northeast", "diagonal", "top-right"],
+    "category": "arrows"
+  },
+  "arrow-down-left": {
+    "synonyms": ["arrow", "down-left", "southwest", "diagonal", "bottom-left"],
+    "category": "arrows"
+  },
+  "arrow-down-right": {
+    "synonyms": ["arrow", "down-right", "southeast", "diagonal", "bottom-right"],
+    "category": "arrows"
   }
 }
