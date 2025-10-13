@@ -70,5 +70,9 @@
   "arrow-down-right": {
     "synonyms": ["arrow", "down-right", "southeast", "diagonal", "bottom-right"],
     "category": "arrows"
+  },
+ "zellij": {
+    "synonyms": [],
+    "category": "culture"
   }
 }
